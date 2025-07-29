@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import { toast } from 'react-toastify'
-import { backendUrl } from '../app'
+import { backendUrl } from '../App'
 
 
 const Login = ({setToken}) => {
